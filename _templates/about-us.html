@@ -1,0 +1,71 @@
+---
+# This file is licensed under the MIT License (MIT) available on
+# http://opensource.org/licenses/MIT.
+
+layout: base
+id: about-us
+---
+<h1>{% translate pagetitle %}</h1>
+<p class="summary">{% translate pagedesc %}</p>
+
+<h2>{% translate own %}</h2>
+<p>{% translate owntxt %}</p>
+
+<h2>{% translate control %}</h2>
+<p>{% translate controltxt %}</p>
+
+<h2>{% translate mission %}</h2>
+<ul>
+  <li>{% translate missiontxt1 %}</li>
+  <li>{% translate missiontxt2 %}</li>
+  <li>{% translate missiontxt3 %}</li>
+  <li>{% translate missiontxt4 %}</li>
+  <li>{% translate missiontxt5 %}</li>
+  <li>{% translate missiontxt6 %}</li>
+  <li>{% translate missiontxt7 %}</li>
+</ul>
+
+<h2>{% translate help %}</h2>
+<p>{% translate helptxt %}</p>
+
+<h3>{% translate maintenance %}</h3>
+
+<div class="credit">
+  <p><a href="mailto:saivann@gmail.com">Saïvann Carignan</a><span>Website maintenance</span></p>
+  <p><a>Garland William Binns III</a><span>Translation maintenance</span></p>
+  <p><a href="http://dtrt.org/">David Harding</a><span>Documentation maintenance</span></p>
+</div>
+
+<h3>{% translate documentation %}</h3>
+
+<div class="credit">
+  <p><a href="http://dtrt.org/">David Harding</a><span>Coordination and writing</span></p>
+  <p><a>Greg Sanders</a><span>Writing</span></p>
+</div>
+
+<h3>{% translate translation %}</h3>
+
+<div class="credit">
+  <p><a>Garland William Binns III</a><span>Maintenance</span></p>
+  <p><a>@arvicco</a><span>Russian</span></p>
+  <p><a>Simon Alexander Hinterreiter</a><span>German</span></p>
+  <p><a>Jacob Burenstam</a><span>Swedish</span></p>
+  <p><a>Péter Kemenczés</a><span>Hungarian</span></p>
+  <p><a>Matija Mazi</a><span>Slovenian</span></p>
+  <p><a>Mihai Onosie</a><span>Romanian</span></p>
+  <p><a>Boštjan Pirnar</a><span>Slovenian</span></p>
+  <p><a>Luigigiuseppe Prosperi</a><span>Italian</span></p>
+  <p><a>Thomas Pryds</a><span>Danish</span></p>
+</div>
+
+<h3>{% translate github %}</h3>
+
+<div class="contributors">
+  {% for c in site.sitecontributors %}
+  <div>
+    <div>{% if c.avatar_url %}<img src="{{c.avatar_url}}" alt="icon" />{% else %}<img alt="icon" />{% endif %}</div>
+    <div><a{% if c.login %} href="https://github.com/{{c.login}}"{% endif %}>{{ c.name | htmlescape }}</a></div>
+    <div>({{ c.contributions }})</div>
+  </div>
+  {% endfor %}
+</div>

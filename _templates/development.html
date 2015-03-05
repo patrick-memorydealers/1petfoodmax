@@ -1,0 +1,83 @@
+---
+# This file is licensed under the MIT License (MIT) available on
+# http://opensource.org/licenses/MIT.
+
+layout: base
+id: development
+---
+<h1>{% translate pagetitle %}</h1>
+<p class="summary">{% translate summary %}</p>
+
+<h2>{% translate spec %}</h2>
+<p>{% translate spectxt %}</p>
+
+<h2>{% translate coredev %}</h2>
+
+<p>{% translate inventor %}</p>
+
+<div class="listtable coredevtable">
+  <div><div>Wladimir J. van der Laan</div><div><a href="mailto:laanwj@gmail.com">laanwj@gmail.com</a></div><div><a href="/laanwj.asc">PGP</a></div></div>
+  <div><div>Gavin Andresen</div><div><a href="mailto:gavinandresen@gmail.com">gavinandresen@gmail.com</a></div><div><a href="/gavinandresen.asc">PGP</a></div></div>
+  <div><div>Jeff Garzik</div><div><a href="mailto:jgarzik@bitpay.com">jgarzik@bitpay.com</a></div><div><a href="/jgarzik-bitpay.asc">PGP</a></div></div>
+  <div><div>Gregory Maxwell</div><div><a href="mailto:greg@xiph.org">greg@xiph.org</a></div><div><a href="/gmaxwell.asc">PGP</a></div></div>
+  <div><div>Pieter Wuille</div><div><a href="mailto:pieter.wuille@gmail.com">pieter.wuille@gmail.com</a></div><div><a href="/pieterwuille.asc">PGP</a></div></div>
+</div>
+
+<h2>{% translate disclosure %}</h2>
+<p><a href="mailto:bitcoin-security@lists.sourceforge.net">bitcoin-security@lists.sourceforge.net</a></p>
+<p>{% translate disclosuretxt %}</p>
+
+<h2>{% translate involve %}</h2>
+<p>{% translate involvetxt1 %}</p>
+<p>{% translate involvetxt2 %}</p>
+<div id="chatbox" class="chatbox"></div>
+
+<h2>{% translate more %}</h2>
+
+<p>{% translate morechoose %}</p>
+
+<ul class="devprojectlist">
+  <li><a href="https://github.com/etotheipi/BitcoinArmory">Armory</a> - A Bitcoin client with enhanced security features.</li>
+  <li><a href="http://bfgminer.com">BFGMiner</a> - Modular Bitcoin mining software.</li>
+  <li><a href="https://code.google.com/p/bitcoinj/">bitcoinj</a> - A Java implementation of a Bitcoin client-only node used in thin SPV Bitcoin clients.</li>
+  <li><a href="https://github.com/schildbach/bitcoin-wallet/">Bitcoin Wallet for Android</a> - A thin SPV Bitcoin client for mobiles.</li>
+  <li><a href="https://github.com/bitsofproof/supernode">Bits of Proof Enterprise Bitcoin Server</a> - A modular implementation of the Bitcoin protocol in Java.</li>
+  <li><a href="https://github.com/conformal/btcd">btcd</a> - A full node bitcoin implementation written in Go.</li>
+  <li><a href="https://electrum.org/community.html">Electrum</a> - A fast Bitcoin client relying on remote servers to store the block chain.</li>
+  <li><a href="https://gitorious.org/bitcoin/eloipool/">Eloipool</a> - A fast Python mining pool server software.</li>
+  <li><a href="https://github.com/hivewallet">Hive</a> - A fast user-friendly SPV Bitcoin client.</li>
+  <li><a href="https://github.com/libbitcoin/libbitcoin/">libbitcoin</a> - An asynchronous C++ library for Bitcoin.</li>
+  <li><a href="https://en.bitcoin.it/wiki/Libblkmaker#For_developers">libblkmaker and python-blkmaker</a> - Client side libraries for the getblocktemplate mining protocol.</li>
+  <li><a href="https://multibit.org/">MultiBit</a> - A thin SPV international Bitcoin client for desktops.</li>
+  <li><a href="https://github.com/NicolasDorier/NBitcoin">NBitcoin</a> - A cross-platform .NET Bitcoin library. (Mac,IOS,Android,WP,Tablets,Mono,Desktop)</li>
+  <li><a href="https://github.com/libbitcoin/obelisk/">obelisk</a> - A libbitcoin-based blockchain query server.</li>
+  <li><a href="https://github.com/jgarzik/picocoin">picocoin</a> - A tiny bitcoin library, with lightweight client and utils.</li>
+  <li><a href="https://github.com/petertodd/python-bitcoinlib">python-bitcoinlib</a> - A Python2/3 Bitcoin library.</li>
+  <li><a href="https://sx.dyne.org/">sx</a> - Modular Bitcoin commandline utilities.</li>
+  <li class="more"><a href="#" onclick="librariesShow(event)">{% translate moremore %}</a></li>
+</ul>
+
+<section id="devcommunities">
+  <h2>{% translate devcommunities %}</h2>
+  <p>{% translate devcommunitiesintro %}</p>
+
+  <ul>
+    <li>{% translate ircjoin %}</li>
+    <li>{% translate stackexchange %}</li>
+    <li>{% translate bitcointalkdev %}</li>
+  </ul>
+</section>
+
+<section id="contributors">
+  <h2>{% translate contributors %}</h2>
+  <p>{% translate contributorsorder %}</p>
+  <div class="contributors">
+    {% for c in site.corecontributors %}
+    <div>
+      <div>{% if c.avatar_url %}<img src="{{c.avatar_url}}" alt="icon" />{% else %}<img alt="icon" />{% endif %}</div>
+      <div><a{% if c.login %} href="https://github.com/{{c.login}}"{% endif %}>{{ c.name | htmlescape }}</a></div>
+      <div>({{ c.contributions }})</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

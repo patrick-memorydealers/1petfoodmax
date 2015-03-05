@@ -1,0 +1,149 @@
+- date: 2015-02-20
+  title: "Coinfest. The first decentralized decentralized currency convention"
+  city: "Many cities"
+  country: "Worldwide"
+  link: "http://www.coinfest.org/"
+
+- date: 2015-02-26
+  title: "Chambe-Carnet: Bitcoin, initiation à l’argent P2P et opportunités"
+  venue: "'Horloge' building, hall 'Mur Jericho'"
+  address: "Savoie Technolac, 16 avenue Lac du Bourget 73374 Le Bourget-du-Lac France"
+  city: "Chambery (Savoie)"
+  country: "France"
+  link: "http://www.chambe-carnet.com/2015/01/06/bitcoin-initiation-a-largent-p2p-et-opportunites/"
+
+- date: 2015-02-26
+  title: "Pirate Payments Systems, Cryptocurrencies, and Disruption in Finance"
+  venue: "General Assembly"
+  address: "225 Bush Street 5th Floor"
+  city: "San Francisco, CA"
+  country: "USA"
+  link: "https://www.eventbrite.com/e/pirate-payments-systems-cryptocurrencies-and-disruption-in-finance-tickets-15238621126?discount=insider"
+
+- date: 2015-03-03
+  title: "Bitcoin Expo Vienna"
+  venue: "Juridicum Wien"
+  address: "Schottenbastei 10-16, 1010 Wien"
+  city: "Vienna"
+  country: "Austria"
+  link: "http://bitcoinexpo-vienna.com/"
+
+- date: 2015-03-05
+  title: "Inside Bitcoins Berlin"
+  venue: "Estrel Berlin"
+  address: "Sonnenallee 225, 12057"
+  city: "Berlin"
+  country: "Germany"
+  link: "http://insidebitcoins.de/?utm_source=bitcoinorg&utm_medium=eventlisting&utm_campaign=bitcoinorgeventlistingibberlin"
+
+- date: 2015-03-14
+  title: "Let the bit drop"
+  venue: "Stadium"
+  address: "Windsor Park, Bath Rd"
+  city: "Roseau"
+  country: "Commonwealth of Dominica"
+  link: "http://www.letthebitdrop.com/"
+
+- date: 2015-03-15
+  title: "Coin Debut at SXSW"
+  venue: "Max's Wine Dive"
+  address: "207 San Jacinto Blvd"
+  city: "Austin, TX"
+  country: "USA"
+  link: "http://coindebut.com/"
+
+- date: 2015-03-23
+  title: "MTBIT - Bitcoin & Remittances Las Vegas"
+  venue: "Flamingo Hotel & Casino"
+  address: "3555 Las Vegas Boulevard South"
+  city: "Las Vegas, NV"
+  country: "United States"
+  link: "http://www.imtconferences.com/mtbit/"
+
+- date: 2015-03-28
+  title: "Texas Bitcoin Conference"
+  venue: "Moody Theater"
+  address: "310 W Willie Nelson Blvd"
+  city: "Austin, TX"
+  country: "United States"
+  link: "http://texasbitcoinconference.com/conferences/austin2015"
+
+- date: 2015-03-31
+  title: "Transact 15"
+  venue: "Moscone center / South building"
+  address: "747 Howard Street"
+  city: "San Francisco, CA"
+  country: "United States"
+  link: "http://electran.org/events/transact15/"
+
+- date: 2015-04-02
+  title: "Bitcoin Conference Russia 2015"
+  venue: "MSU Science Park"
+  address: "Buildings 75, Leninskie Gory"
+  city: "Moscow"
+  country: "Russia"
+  link: "http://bitcoinconf.moscow/"
+
+- date: 2015-04-16
+  title: "Bitcoin Africa Conference"
+  venue: "Atlantic Imbizo Conference And Function Studio"
+  address: "V & A Waterfront"
+  city: "Cape Town"
+  country: "South Africa"
+  link: "http://bitcoinconference.co.za/"
+
+- date: 2015-04-18
+  title: "The State of Digital Money"
+  venue: "Rhubarb Studios"
+  address: "633 W 5th St"
+  city: "Los Angeles, CA"
+  country: "United States"
+  link: "http://www.cureativ.com/sodm#digitalmoney"
+
+- date: 2015-04-27
+  title: "Inside Bitcoins New York"
+  venue: "Javits Convention Center"
+  address: "655 W 34th St"
+  city: "New York, NY"
+  country: "United States"
+  link: "http://insidebitcoins.com/new-york/2015?utm_source=bitcoinorg&utm_medium=eventlisting&utm_campaign=bitcoinorgeventlistingibny"
+
+- date: 2015-04-29
+  title: "Virtual Currency Today Summit"
+  venue: "Hilton Boston Back Bay"
+  address: "40 Dalton St"
+  city: "Boston"
+  country: "United States"
+  link: "http://summit.virtualcurrencytoday.com/"
+
+- date: 2015-05-06
+  title: "Bitcoin Wednesday"
+  venue: "Pakhuis de Zwijger"
+  address: "Piet Heinkade 179"
+  city: "Amsterdam"
+  country: "The Netherlands"
+  link: "http://www.BitcoinWednesday.com"
+
+- date: 2015-05-14
+  title: "Bitcoin Conference Prague 2015"
+  venue: "Prague Congress Centre"
+  address: "Prague 5, Kvetna 65"
+  city: "Prague"
+  country: "Czech Republic"
+  link: "http://bitcoinconf.eu/"
+
+- date: 2015-05-25
+  title: "MTBIT - Bitcoin & Remittances Istanbul"
+  venue: "Conrad Hilton Hotel"
+  address: "Cihannüma Mah., Saray Cad No: 5"
+  city: "Istanbul"
+  country: "Turkey"
+  link: "http://www.imtconferences.com/mtbit/"
+
+- date: 2015-11-09
+  title: "MTBIT - Bitcoin & Remittances Miami Beach"
+  venue: "Eden Roc Hotel"
+  address: "4525 Collins Avenue"
+  city: "Miami Beach, FL"
+  country: "United States"
+  link: "http://www.imtconferences.com/mtbit/"
